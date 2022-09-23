@@ -1,19 +1,24 @@
 
-em@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  }
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+em {
+  width: device-width;
+  zoom: 1.0;
+}
   
   body {
-    width:auto;
+    width: auto;
     min-height: 98vh;
     font-family: 'Comfortaa';
-    color:white;
+    color: white;
     background-color: grey;
     background-image: url("../images/404.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    display:block;
+    display: block;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,12 +36,12 @@ em@viewport {
   
   
   .title{
-    padding-left:25px;
+    padding-left: 25px;
     position: relative;
     width: 500px;
     max-width: 60vw;
     height: auto;
-    margin-bottom:1.2vw;
+    margin-bottom: 1.2vw;
     color: white;
   }
   
@@ -51,8 +56,8 @@ em@viewport {
   }
   
   a{
-    text-decoration:none;
-    color:white;
+    text-decoration: none;
+    color: white;
     text-shadow: 0px 0px 10px grey;
   }
   
@@ -61,7 +66,7 @@ em@viewport {
       font-size: 60px;
       line-height: 60px;
     }
-    footer{
+    footer {
       font-size: 10px;
       padding-bottom: 13px;
     }
@@ -72,7 +77,7 @@ em@viewport {
       line-height: 40px;
       margin-bottom: 18px;
     }
-    footer{
+    footer {
       font-size: 7px;
       padding-bottom: 8px;
     }
@@ -83,13 +88,13 @@ em@viewport {
       line-height: 70px;
       margin-bottom: 25px;
     }
-    footer{
+    footer {
       font-size: 14px;
       padding-bottom: 17px;
     }
   }
   
-  footer{
+  footer {
     text-align: center;
     height: 0.5vw;
     margin-top:auto;
@@ -102,7 +107,7 @@ em@viewport {
     margin-top:2%;
     text-decoration:none;
   }
-  #footerImage{
+  #footerImage {
     height:120%;
   }
   
