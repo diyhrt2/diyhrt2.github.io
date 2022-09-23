@@ -12,12 +12,12 @@ Whether it's due to cost, familial issues, or a myriad of other reasons, for man
 
 <br/>
 
-### ðŸ¤• Issues:
+### 🤕 Issues:
 If you've found an issue on the site (broken links, spelling errors, etc), please open an issue in the [issues tab](https://github.com/diyhrt/diyhrt.github.io/issues), or contact a relevant team member.
 
 <br/>
 
-### ðŸ’Œ Contact:
+### 💌 Contact:
 If you want to get in touch, please email [hrtinfo@protonmail.com](mailto:hrtinfo@protonmail.com) or reach out directly at [diyhrt.wiki/contact](https://diyhrt.wiki/contact).
 
 <br/>
