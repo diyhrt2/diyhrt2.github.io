@@ -1,20 +1,22 @@
-[![readmebanner](https://raw.githubusercontent.com/diyhrt2/diyhrt2.github.io/main/images/readmebanner.png)](#)
+[![readmebanner](https://raw.githubusercontent.com/diyhrt2/diyhrt2.github.io/red/images/readmebanner.png)](#)
 <h1 align="center">The DIY HRT Directory Mirror </br> 
 <br/><br/></h1>
 
 <br/>
 <h3 align="center">This website intends to teach transgender people how to safely perform DIY Hormone Replacement Therapy. Share the site with those who need it, but not to transphobes: use common sense!</h3>
 <br/>
+
+### Branches
+* [![red](https://raw.githubusercontent.com/diyhrt2/diyhrt2.github.io/red/.gh-readme-resources/red.gif)](#)] `red` - Meant for viewing on GitHub.com. It has the same contents as the `golden` branch, with the exceptions of this README file (which remains unchanged at `README-original.md`) and the `.gh-readme-resources/` folder
+* [![golden](https://raw.githubusercontent.com/diyhrt2/diyhrt2.github.io/red/.gh-readme-resources/golden.gif)](#)] `golden` - An unmodified copy of the site with no changes to a file before/after upload (with the exception of correcting errors)
+* [![moon](https://raw.githubusercontent.com/diyhrt2/diyhrt2.github.io/red/.gh-readme-resources/moon.gif)](#) `moon` - The site as shown at https://diyhrt2.github.io - which has some changes compared to the `golden` branch, mainly fixes that are needed for `diyhrt2.github.io` and to restore some missing content in pages (e.g. styles)
+
 <p align="center">
 Whether it's due to cost, familial issues, or a myriad of other reasons, for many trans people HRT is inaccessible. If you or someone you know fit into this category, this site is designed to help. Nothing is sold on the site, and we take no responsibility for what you do with the information shared. If you think you may have a medical emergency, please contact your doctor or emergency services.<br/><br/></p>
 
 ##
 
 <br/>
-
-<h3 align="center">
-This is a <i>mirror</i>. I will (most likely) not be actively maintaining the contents of this website - I will, however, be doing my best to preserve its contents.
-
 <br/>
 
 ### DISCLAIMER:
