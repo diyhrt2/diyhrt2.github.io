@@ -1,18 +1,18 @@
 @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
+  width: device-width;
+  zoom: 1.0;
 }
 
 body {
-  width:auto;
+  width: auto;
   min-height: 98vh;
   font-family: 'Comfortaa';
-  color:white;
+  color: white;
   background-color: grey;
   background-image: url("../images/bg6.png");
   background-size: cover;
   background-repeat: no-repeat;
-  display:block;
+  display: block;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,16 +28,16 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.button{
+.button {
   background: linear-gradient(to bottom right, #f2b6fc, #cfe2ff);
   position: relative;
   height: auto;
   color: white;
   transition: transform .2s ease-out, box-shadow .2s ease-out;
-  box-shadow:  0px 0px 10px grey;
+  box-shadow: 0px 0px 10px grey;
 }
 
-.button:hover{
+.button:hover {
   transform: scale(1.05);
   box-shadow: 0px 0px 40px grey;
 }
@@ -47,31 +47,31 @@ body {
   padding-left: 1vw;
 }
 
-.title{
-  padding-left:25px;
+.title {
+  padding-left: 25px;
   position: relative;
   width: 500px;
   max-width: 60vw;
   height: auto;
-  margin-bottom:3vw;
+  margin-bottom: 3vw;
   color: white;
 }
 
 #projectImage {
-  float:right;
+  float: right;
   position: relative;
 }
 
 .description {
   margin-left: -0.7vw;
-  color:white;
+  color: white;
 }
 
-h1{
+h1 {
   text-align: center;
   font-family: 'Aref Ruqaa';
   margin-bottom: 10px;
-  text-shadow:  0px 0px 10px grey;
+  text-shadow: 0px 0px 10px grey;
 }
 
 .link {
@@ -83,9 +83,9 @@ h1{
   z-index: 1;
 }
 
-a{
-  text-decoration:none;
-  color:white;
+a {
+  text-decoration: none;
+  color: white;
   text-shadow: 0px 0px 10px grey;
 }
 
@@ -94,7 +94,7 @@ a{
     font-size: 60px;
     line-height: 60px;
   }
-  .button{
+  .button {
     font-size: 30px;
     border-radius: 25px;
     padding: 25px;
@@ -103,12 +103,12 @@ a{
     max-width: 60vw;
     margin-bottom:24px;
   }
-  #projectImage{
+  #projectImage {
     display:inline-block;
     top:-2.5px;
     width:35px;
   }
-  footer{
+  footer {
     font-size: 10px;
     padding-bottom: 13px;
   }
@@ -119,7 +119,7 @@ a{
     line-height: 40px;
     margin-bottom: 18px;
   }
-  .button{
+  .button {
     font-size: 22px;
     border-radius: 25px;
     padding: 25px;
@@ -128,12 +128,12 @@ a{
     max-width: 60vw;
     margin-bottom:20px;
   }
-  #projectImage{
+  #projectImage {
     height:auto;
     top:-3.5px;
     width:30px;
   }
-  footer{
+  footer {
     font-size: 7px;
     padding-bottom: 8px;
   }
@@ -144,39 +144,39 @@ a{
     line-height: 70px;
     margin-bottom: 25px;
   }
-  .button{
+  .button {
     font-size: 40px;
     border-radius: 25px;
     padding: 25px;
-    padding-top:27px;
+    padding-top: 27px;
     width: 500px;
     max-width: 60vw;
-    margin-bottom:28px;
+    margin-bottom: 28px;
   }
-  #projectImage{
-    height:auto;
-    top:1px;
-    width:40px;
+  #projectImage {
+    height: auto;
+    top: 1px;
+    width: 40px;
   }
-  footer{
+  footer {
     font-size: 14px;
     padding-bottom: 17px;
   }
 }
 
-footer{
+footer {
   text-align: center;
   height: 0.5vw;
-  margin-top:auto;
+  margin-top: auto;
   min-height: 5px;
-  color:white;
+  color: white;
   padding-top: 1vw;
   position: fixed;
-  width:100%;
+  width: 100%;
   bottom: 0;
-  margin-top:2%;
-  text-decoration:none;
+  margin-top: 2%;
+  text-decoration: none;
 }
-#footerImage{
-  height:120%;
+#footerImage {
+  height: 120%;
 }

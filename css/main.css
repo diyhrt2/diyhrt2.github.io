@@ -1,255 +1,275 @@
 body {
-    /*font-family: "Lato", sans-serif;*/
+  /*font-family: "Lato", sans-serif;*/
   font-family: 'Poppins', sans-serif;
-    color:#3f3f3f;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    position: relative;
+  color: #3f3f3f;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+  
+a {
+  text-decoration: none;
+}
+
+p2 {
+  color: red;
+}
+
+h2 {
+  color: #3f3f3f;
+  line-height: 1;
+}
+  
+h {
+  padding: 0;
+  margin-top: 0;
+  padding-bottom: 20px;
   }
   
-  a {
-    text-decoration: none;
-  }
-  p2 {
-    color:red;
-  }
-  h2{
-    color:#3f3f3f;
-    line-height: 1;
-  }
+h5 {
+  padding: 0;
+  margin-bottom: 0;
+}
   
-  h4{
-      padding:0;
-      margin-top:0;
-      padding-bottom:20px;
-  }
+h6 {
+  font-size: 25px;
+  padding: 0;
+  padding-top: 30px;
+  margin: 0;
+}
   
-  h5{
-    padding:0;
-    margin-bottom: 0;
-  }
+h7 {
+  font-size: 20px;
+  padding:0;
+  margin:0;
+}
   
-  h6{
-    font-size: 25px;
-    padding:0;
-    padding-top:30px;
-    margin:0;
-  }
+li {
+  margin-left: 25px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
   
-  h7{
-    font-size: 20px;
-    padding:0;
-    margin:0;
-  }
+/* Navbar */
+.sidenav {
+  width: 20rem;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #0f59d1, #630d4e);
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: 'Comfortaa';
+  box-shadow:  0px 0px 10px black;
+}
   
-  li{
-    margin-left:25px;
-    padding-left:10px;
-    padding-bottom: 5px;
-  }
+.sidenav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  opacity: 0.8;
+  transition: opacity .3s ease-out;
+}
   
-  /* Navbar */
+.sidenav a:hover {
+  opacity: 1;
+}
+  
+.logo {
+  height: auto;
+}
+  
+#language {
+  color: #32399b;
+  /* color: rgba(255, 255, 255, 0.85); */
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.85);
+  /* background: rgba(255, 255, 255, 0.0); */
+  top: 10px;
+  float: right;
+  text-decoration: none;
+  font-family: 'Comfortaa';
+  border-width: 0px;
+  width: auto;
+  border-radius: 10px;
+  border-color: #fff;
+  margin-right: 18px;
+}
+
+#language option {
+  background-color: rgba(255, 255, 255, 1);
+  color: #32399b;
+  border-width: 0px;
+  border-color: #fff;
+  margin-left:340px;
+  font-family: 'Comfortaa';
+}
+  
+  
+.dropbtn {
+  background: rgba(255, 255, 255, 0.85);
+  color: #32399b;
+  /* border-radius: 10px; */
+  border-radius: 0px 0px 8px 8px;
+  text-decoration: none;
+  /* font-family: 'Comfortaa'; */
+  font-family: 'Poppins', sans-serif;
+  width: auto;
+  margin-right:18px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color .1s ease-out, border-radius .1s ease-out;
+}
+  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-right: 18px;
+  right: 0;
+  background-color: #f9f9f9;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+  
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  border-radius: 8px 8px 0px 0px;
+}
+  
+  
+/* Responsive columns for the navbar */
+@media screen and (max-width: 600px) {
   .sidenav {
-    width: 20rem;
+    width: 5rem;
     height: 100%;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to bottom right, #0f59d1, #630d4e);
-    overflow-x: hidden;
-    padding-top: 20px;
-    font-family: 'Comfortaa';
-    box-shadow:  0px 0px 10px black;
+    text-align: center;
   }
-  
+
+  .main, .banner, footer {
+    margin-left: 5rem; /* Must be same as the width of the sidenav */
+  }
+
+  .logo {
+    width:4rem;
+    padding: 6px 8px 6px 7px;
+  }
+
   .sidenav a {
-  
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    opacity: 0.8;
-    transition: opacity .3s ease-out;
+    font-size: 7px;
+    padding: 6px 8px 12px 5px;
   }
-  
-  .sidenav a:hover {
-    opacity: 1;
-  }
-  
-  .logo{
-    height:auto;
-  }
-  
-  #language{
-    color:#32399b;
-    /* color: rgba(255, 255, 255, 0.85); */
-    opacity: 1;
-    background: rgba(255, 255, 255, 0.85);
-    /* background: rgba(255, 255, 255, 0.0); */
-    top:10px;
-    float:right;
-    text-decoration: none;
-    font-family: 'Comfortaa';
-    border-width: 0px;
-    width:auto;
-    border-radius: 10px;
-    border-color: #fff;
-    margin-right:18px;
-  
-  }
-  #language option{
-    background-color: rgba(255, 255, 255, 1);
-    color:#32399b;
-    border-width: 0px;
-    border-color: #fff;
-    margin-left:340px;
-    font-family: 'Comfortaa';
-  }
-  
-  
+
   .dropbtn {
-    background: rgba(255, 255, 255, 0.85);
-    color:#32399b;
-    /* border-radius: 10px; */
-    border-radius: 0px 0px 8px 8px;
-    text-decoration: none;
-    /* font-family: 'Comfortaa'; */
-    font-family: 'Poppins', sans-serif;
-    width:auto;
-    margin-right:18px;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    transition: background-color .1s ease-out, border-radius .1s ease-out;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
+    font-size: 10px;
+    padding: 9px 11px 9px 11px;
+    text-align: left;
+    -ms-transform: translateY(-212%);
+    transform: translateY(-212%);
+    width: 90px;
   }
   
   .dropdown-content {
+    width: 90px;
+    font-size: 8px;
+    text-align: left;
+    -ms-transform: translateY(-96%);
+    transform: translateY(-96%);
+  }
+
+  .linkGroup {
+    padding-top: 18px;
+  }
+
+  .navSymbol {
+    height: 30px;
+    display: block;
+    padding-bottom: 6px;
+    margin: auto;
+  }
+
+  p, li {
+    font-size: 10px;
+    color: #3f3f3f;
+    font-family: Comfortaa;
+  }
+
+  h7 {
+    font-size: 12px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-weight: 500px;
+    font-size: 32px;
+    color: #3f3f3f;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    padding: 10px 20px 10px;
+  }
+
+  .banner {
+    height: 100px;
+  }
+
+  .banner h1 {
+    font-size: 32px;
+    -ms-transform: translateY(60%);
+    transform: translateY(60%);
+  }
+  .custom-shape-divider-bottom-1645502261 {
     display: none;
-    position: absolute;
-    margin-right:18px;
-    right: 0;
-    background-color: #f9f9f9;
-    /* min-width: 160px; */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
   }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+
+  footer {
+    padding-top: 10px;
   }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1;}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
+
+  footer a {
+    font-size: 10px;
   }
-  
-  .dropdown:hover .dropbtn {
-    background-color: #fff;
-    border-radius: 8px 8px 0px 0px;
+
+  footer img {
+    height: 10px;
   }
-  
-  
-  /* Responsive columns for the navbar */
-  @media screen and (max-width: 600px) {
-    .sidenav {
-      width: 5rem;
-      height: 100%;
-      text-align: center;
-    }
-    .main, .banner, footer{
-      margin-left: 5rem; /* Must be same as the width of the sidenav */
-    }
-    .logo{
-      width:4rem;
-      padding: 6px 8px 6px 7px;
-    }
-    .sidenav a{
-      font-size: 7px;
-      padding: 6px 8px 12px 5px;
-    }
-    .dropbtn{
-      font-size: 10px;
-      padding: 9px 11px 9px 11px;
-      text-align: left;
-      -ms-transform: translateY(-212%);
-      transform: translateY(-212%);
-      width:90px
-    }
-  
-    .dropdown-content{
-      width:90px;
-      font-size: 8px;
-      text-align: left;
-      -ms-transform: translateY(-96%);
-      transform: translateY(-96%);
-    }
-    .linkGroup{
-      padding-top:18px;
-    }
-    .navSymbol{
-      height:30px;
-      display:block;
-      padding-bottom: 6px;
-      margin: auto;
-    }
-    p, li{
-      font-size: 10px;
-      color:#3f3f3f;
-      font-family: Comfortaa;
-    }
-    h7{
-      font-size: 12px;
-    }
-    h5{
-      font-size: 20px;
-    }
-    h6{
-      font-size: 15px;
-    }
-    h2{
-      font-weight: 500px;
-      font-size: 32px;
-      color:#3f3f3f;
-      margin-bottom: 20px;
-    }
-    .main{
-      padding: 10px 20px 10px;
-    }
-    .banner{
-      height:100px;
-    }
-    .banner h1{
-      font-size: 32px;
-      -ms-transform: translateY(60%);
-      transform: translateY(60%);
-    }
-    .custom-shape-divider-bottom-1645502261 {
-      display: none;
-    }
-    footer{
-      padding-top:10px;
-    }
-    footer a{
-        font-size: 10px;
-    }
-    footer img{
-      height:10px;
-    }
-    .notes h1{
-      font-size:20px;
-    }
+
+  .notes h1 {
+    font-size: 20px;
   }
+}
   
   @media screen and (min-width: 601px) {
     .sidenav {
