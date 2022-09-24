@@ -1,6 +1,6 @@
 [![readmebanner](https://raw.githubusercontent.com/diyhrt2/diyhrt2.github.io/red/images/readmebanner.png)](#)
 <h1 align="center">The DIY HRT Directory Mirror </br> 
-<br/><br/></h1>
+<br/></h1>
 
 <br/>
 <h3 align="center">This website intends to teach transgender people how to safely perform DIY Hormone Replacement Therapy. Share the site with those who need it, but not to transphobes: use common sense!</h3>
